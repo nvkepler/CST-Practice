@@ -1,0 +1,172 @@
+    <!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            table,tr,td,th
+                {
+                border: 1px solid black;
+                border-style: dotted;
+                border-collapse: collapse;
+                text-align: center;
+                padding: 10px;
+                font-family: sans-serif;
+            }
+            table
+            {
+                height: 100%;
+                width: 100%;
+            }
+            td:hover
+            {
+                background-color: rgb(0, 102, 255);
+                color: white;
+            }
+            th
+            {
+                background-color: rgb(107, 0, 172);
+                color: white;
+            }
+            tr:nth-child(odd)
+            {
+                background-color: rgb(123, 42, 255);
+            }
+            .a1
+            {
+                background-color: rgb(255, 255, 255)
+            }
+            .b1
+            {
+                background-color: rgb(123, 42, 255);
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Branch</th>
+                <th>Semester</th>
+                <th>Year</th>
+                <th>Grade</th>
+                <th>Overall Grade</th>
+                <th>Reappear<br>(if any)</th>
+                <th>Training</th>
+            </tr>
+        </tr>
+        <tr>
+            <tr>
+                <td rowspan="8">01</td>
+                <td rowspan="8">Naman</td>
+                <td rowspan="8">B.E.</td>
+                <td rowspan="8">CSE</td>
+                <td rowspan="1">I</td>
+                <td rowspan="2">I</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="a1">II</td>
+                <td rowspan="1" class="a1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">III</td>
+                <td rowspan="2">II</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="a1">IV</td>
+                <td rowspan="1" class="a1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">V</td>
+                <td rowspan="2">III</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="a1">VI</td>
+                <td rowspan="1" class="a1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">VII</td>
+                <td rowspan="2">IV</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="1">Placement Module Training</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="a1">VIII</td>
+                <td rowspan="1" class="a1">B</td>
+                <td rowspan="1" class="a1">6 months Industrial Training</td>
+            </tr>
+        </tr>
+        <tr id="a1">
+            <tr>
+                <td rowspan="8">02</td>
+                <td rowspan="8">Mukul</td>
+                <td rowspan="8">B.E.</td>
+                <td rowspan="8">CSE</td>
+                <td rowspan="1">I</td>
+                <td rowspan="2">I</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="b1">II</td>
+                <td rowspan="1" class="b1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">III</td>
+                <td rowspan="2">II</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="b1">IV</td>
+                <td rowspan="1" class="b1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">V</td>
+                <td rowspan="2">III</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="2">No</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="b1">VI</td>
+                <td rowspan="1" class="b1">B</td>
+            </tr>
+            <tr>
+                <td rowspan="1">VII</td>
+                <td rowspan="2">IV</td>
+                <td rowspan="1">A</td>
+                <td rowspan="2">O</td>
+                <td rowspan="2">No</td>
+                <td rowspan="1">Placement Module Training</td>
+            </tr>
+            <tr>
+                <td rowspan="1" class="b1">VIII</td>
+                <td rowspan="1" class="b1">B</td>
+                <td rowspan="1" class="b1">6 months Industrial Training</td>
+            </tr>
+        </tr>
+        </table>
+    </body>
+</html>
