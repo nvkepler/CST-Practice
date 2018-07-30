@@ -1,0 +1,56 @@
+*
+{
+    border: 1px solid red`;
+    border-style: dotted;
+}
+
+.body
+{
+    font-family: 'Lato',sans-serif;
+}
+
+.main-nav
+{
+    float: right;
+}
+
+header .logo {
+    display: block;
+    float: left;
+    padding: 6px 25px 6px 0;
+    position: relative;
+}
+
+.rightNumber
+{
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 16px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.leftNumber
+{
+    float: left;
+    border-right: 1px solid #e5e5e5;
+    padding-right: 10px;
+    text-align: right;
+    line-height: 16px;
+}
+
+.Number
+{
+    float: left;
+    padding-left: 10px;
+    text-align: left;
+    line-height: 16px;
+}
+
+.container {
+    position: relative;
+    width: 1148px;
+    margin: 0 auto;
+    padding: 0;
+}
