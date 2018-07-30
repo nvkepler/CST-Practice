@@ -1,0 +1,8 @@
+Write a para for your website on the topic indian tourism and the places to visit. Apply following styles to your paragraph or text.
+The first para must be alinged towards left.
+Second para must be aligned in center.
+Third para should be left alingned.
+The text must contain a heading with text decoration of underline, overline
+(KATTA) Indian Tourist (KATTA) Indian Tourism
+The words like torism should has tranformation as capitalize
+The rest os the styling must include an appropiate font and font size. The bg of the text must contain an image relating to touism
