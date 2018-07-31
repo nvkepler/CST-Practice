@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style media="screen">
+        *
+        {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    Number 1 : <input type="text" id="one"><br>
+    Number 2 : <input type="text" id="two"><br>
+    Number 3 : <input type="text" id="three"><br><br>
+    <input type ="button" onclick="average()"value="Average">
+    <input type="text" id ="avg">
+
+    <script type"text/javascript">
+    function average(){
+        var a=parseInt(document.getElementById("one").value);
+        var b=parseInt(document.getElementById("two").value);
+        var c=parseInt(document.getElementById("three").value);
+        var afinal=((a+b+c)/3);
+            document.getElementById('avg').value=afinal;
+        }
+    </script>
+</body>
+</html>
