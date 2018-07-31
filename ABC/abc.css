@@ -1,0 +1,15 @@
+#a1:visited
+{
+	color: red;
+}
+
+#a2:link , #a4:link
+{
+	font-family: fantasy;
+	color: black;
+}
+
+#a1:hover
+{
+	background-color: yellow;
+}
